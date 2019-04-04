@@ -15,9 +15,13 @@ body{
 #header{
     height:7em;
    // background-color: #62a1d7;
-    background-color:#569b7e;
+    //background-color:#569b7e;
     display:flex;
     justify-content: center;
+    //background-image: url(../img/images1.jpg);
+    background-color:#f0582f;
+    
+    
    
 }
 
@@ -38,7 +42,7 @@ body{
 #nav{
    
     font-size:1.2em;
-    background-color:#f0582f;
+    //background-color:#f0582f;
     height: 45px;
     margin-top: -20px;
     display: flex;
@@ -46,6 +50,7 @@ body{
     //justify-content: space-between;
     position: relative;
          z-index: 1000;
+     background-image: url(../img/images1.jpg);
         
    }
 ul{
@@ -124,11 +129,12 @@ footer {
     //margin-top: 5px;
     //text-align: center;
     color: white;
-    background-color:#569b7e;
+    //background-color:#569b7e;
     padding: 5px; 
     justify-content: center;
     flex-wrap: wrap;
-   
+    //background-image: url(../img/images1.jpg);
+    background-color:#f0582f;
 }
 /*#facebook{
     margin-top: 5px;
