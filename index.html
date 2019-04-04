@@ -1,44 +1,71 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title> Creative Digital Media</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> The news</title>
+    <!--<link rel="stylesheet" type="text/css" href="css/login.css">-->
     <link rel="stylesheet" type="text/css" href="css/index.css">
-    
+     
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
 </head>
 
-	<body>
-       <div id="wrapper">
+<body>
+    <div id="wrapper">
         <div id="header">
-            <img src="img/logo.PNG" width="110" height="80" alt="logoimage" title="logo"/>
-           <h1>Creative Digital Media</h1>
-           </div>
-           <div id="nav">
-               <ul>
-                   <li><a href="index.html" class="currentpage">Home</a></li>
-                   
-               </ul>
-               <div class="search">
-                    <form>
-                        <input type="text" placeholder="Search" name="search">
-                        <button type="submit"><i class="fa fa-search"></i></button>
-                    </form>
-               </div>
-           </div>
-            <div id="mediaimage">
+            <img src="img/logo.png" width="70" height="60" alt="logoimage" title="logo"/>
+            <h1>The News</h1>
+        </div>
+            <div id="nav">
+                <div class="toggle">
+                    <i class="fa fa-bars menu"></i>
+                </div>
+                <ul>
+                    <li><a href="index.html" class="currentpage">Home</a></li>
+                   <!-- <li><a href="news.html">News</a></li>
+                    <li><a href="sport.html">Sports</a></li>
+                    <li><a href="style.html">Life & Style</a></li>
+                    <li><a href="entertainment.html">Entertainment</a></li>
+                    <li><a href="book.html">Education</a></li>-->
+
+                </ul>
+                <script src="https://code.jquery.com/jquery-3.3.1.js"> </script>
+                <script>
+                    $(document).ready(function() {
+                        $('.menu').click(function() {
+                            $('ul').toggleClass('active');
+
+                        })
+                    })
+                </script>
+            </div>
+
+            <div class="search">
+                <form>
+                    <input class= "searchbutton" type="text" placeholder="search" name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+
+        
+        <div id="mediaimage">
                 
                 
                 <h2>Welcome to Digital media</h2>
-                <img src="img/media.jpg" width="980" height="500" alt="mediaimage" title="media"/> 
+                <img src="img/digital1.jpg" width="980" height="500" alt="mediaimage" title="media"/> 
                 <h3>Digital Media</h3> <p> Digital Media is a more about technology and content and building digital media products requires teams of professionals with diverse skills, including technical skills, artistic skills, analytical and production coordination skills. Digital Media content can be transmitted over the internet or computer networks. This can include text, audio, video, and graphics such as  TV network, newspaper, magazine, etc. Digital Media translating analog data into digital data</p>
                 <p> </p>
             </div>
           
-           
-           <footer>
+            
+
+       
+            <footer>
                 <img src="img/facebook.png" width="40" height="25" alt="partyimage" title="facebook"/>  
                  <img src="img/instagram.png" width="40" height="25" alt="partyimage" title="instagram"/>
                <img src="img/linked.png" width="30" height="25" alt="partyimage" title="linked"/> 
@@ -47,8 +74,12 @@
 
                  <p>Creative Digital Media@ Geetha Raju - K00243723</p>
            </footer> 
-         
+
         
-       </div> 
+
+    </div>
+
+
+
 </body>
 </html>
