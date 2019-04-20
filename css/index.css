@@ -260,6 +260,9 @@ footer {
     #nav{
         display: flex;
         background-image: url(../img/images1.jpg);
+        width: auto;
+        border-radius: 5px;
+       
     }
      #nav ul{
         //margin-left: -5px;
@@ -269,8 +272,8 @@ footer {
          align-items: flex-start;
          margin-top: 40px;
          margin-left: -46px;
-        width: 350px;
-       
+        width: 100%;
+         
     }
     
     #nav ul li{
