@@ -148,8 +148,10 @@ button[type=submit]{
    }
 #socialmedia img{
     padding: 10px;
-    //flex-flow: row;
+    
     flex-flow: wrap;
+    display: flex;
+    flex-direction: row;
     
 }
 footer {
@@ -190,6 +192,8 @@ footer {
     display: flex;
     margin-top: 30px;
     flex-direction: row;
+     flex-flow: wrap;
+    
 }
 #heading h2{
    //margin: auto;
@@ -197,6 +201,9 @@ footer {
     width: 500px;
     //justify-content: center;
     margin-left: 400px;
+    display: flex;
+    flex-direction:row;
+    color: brown;
     
 }
 
@@ -205,18 +212,57 @@ footer {
     margin-top: 70px;
     margin-left: -800px;
 }
-
+#content{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
 #content1 h3{
-   margin-left: -1060px;
-    margin-top: 600px;
+    flex-direction: column;
+    padding: 10px;
+    color: brown;
+   display: flex;
 }
 #content1 p{
-   margin-left: -1060px;
-    //margin-top: 600px;
+   flex-direction: column;
+    text-align: justify;
+    width: 580px;
+    padding: 10px;
+    margin-top: -20px;
+   //display: flex;
+   //justify-content:space-between;
+   
 }
 
+#content2 p{
+   flex-direction: column;
+    text-align: justify;
+    width: 580px;
+    padding: 10px;
+    margin-top:58px;
+    
+   // display: flex;
+   //justify-content: space-between;
+}
 
+#images{
+    flex-direction: row;
+    display: flex;
+    flex-flow: wrap;
+}
 
+#educationimage{
+    padding: 10px;
+    margin-bottom: 15px;
+    color: brown;
+}
+#healthcareimage{
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-left: 100px;
+    color: brown;
+}
 /*@media only screen and  (min-width: 480px){
     
     #wrapper{
