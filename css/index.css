@@ -212,19 +212,19 @@ footer {
     margin-top: 70px;
     margin-left: -800px;
 }
-#content{
+#paragraph{
     display: flex;
     flex-direction: row;
     
     
 }
-#content1 h3{
+#paragraph1 h3{
     flex-direction: column;
     padding: 10px;
     color: brown;
    display: flex;
 }
-#content1 p{
+#paragraph1 p{
    flex-direction: column;
     text-align: justify;
     width: 580px;
@@ -235,7 +235,7 @@ footer {
    
 }
 
-#content2 p{
+#paragraph2 p{
    flex-direction: column;
     text-align: justify;
     width: 580px;
@@ -273,6 +273,7 @@ footer {
     
     #header{
         display: flex;
+        height: 85px;
     }
     #header h2{
         font-size: 30px
@@ -291,6 +292,8 @@ footer {
     #nav{
         display: flex;
         background-image: url(../img/images1.jpg);
+        width:100%;
+        
        
         
        
@@ -301,7 +304,7 @@ footer {
         //line-height: 2px;
          flex-direction: column;
          align-items: flex-start;
-         margin-top: 40px;
+         margin-top: 45px;
          margin-left: -46px;
         
          
@@ -360,7 +363,163 @@ footer {
         
     
 }
+    #socialmedia{
    
+    font-size:1.2em;
+    //background-color:#f0582f;
+    height: 50px;
+    
+    display: flex;
+        background-image: url(../img/images1.jpg);
+        border-radius: 10px;
+    width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-top: -15px;
+    justify-content: center;
+    
+   }
+#socialmedia img{
+    padding: 10px;
+    
+    flex-flow: wrap;
+    display: flex;
+    flex-direction: row;
+    
+}
+footer {
+    display: flex;
+    flex-shrink: 0;
+     height:50px;
+    clear: both;
+    //margin-top: 5px;
+    //text-align: center;
+    color: white;
+    //background-color:#569b7e;
+    padding: 5px; 
+    justify-content: center;
+    flex-wrap: wrap;
+    //background-image: url(../img/images1.jpg);
+    background-color:#f0582f;
+    border-radius: 10px;
+}
+
+#fo p{
+   // text-align: center;
+    color: white;
+    margin-top: 20px;
+    padding: 5px;
+    //margin-left: 50px;
+
+}
+.toggle{
+    color: blueviolet;
+    font-size: 30px;
+    display:block;
+    padding:5px;
+    margin-left: 15px;
+
+    
+}
+#mediaimage{
+    display: flex;
+    margin-top: 30px;
+    flex-direction: row;
+     flex-flow: wrap;
+    
+}
+#heading h2{
+   
+    width: 500px;
+    //justify-content: flex-start;
+    margin: auto;
+    
+   
+    
+}
+
+#mimage img{
+    //margin: auto;
+    margin-top: 10px;
+    margin-left: 0px;
+    width:400px;
+    height: 300px;
+}
+#paragraph{
+    display: flex;
+    flex-direction: column;
+  
+    
+    
+}
+#paragraph1 h3{
+    
+    padding: 10px;
+    color: brown;
+   
+}
+#paragraph1 p{
+     text-align: justify;
+    width: 380px
+   
+}
+
+#paragraph2 p{
+  
+    text-align: justify;
+    width: 380px;
+    padding: 10px;
+    margin-top:-20px;
+    
+   
+}
+
+#images{
+    flex-direction: column;
+    display: flex;
+    flex-flow: wrap;
+}
+
+#educationimage{
+    
+    margin-bottom: 15px;
+    color: brown;
+    margin-top: -40px;
+     
+}
+#educationimage h4{
+    margin-left: -10px;
+}
+#educationimage img{
+    
+    margin-bottom: 15px;
+   margin-left: -10px;
+     width:400px;
+    height: 300px;
+}
+#healthcareimage{
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-left: 100px;
+    color: brown;
+}
+  #healthcareimage h4{
+    margin-top: -40px;
+      margin-left: -110px;
+}
+    #healthcareimage img{
+    width:400px;
+    height: 300px;
+        margin-bottom: -10px;
+   margin-left: -110px;
+        margin-top: -15px;
+} 
+    #socialmedia{
+        width:100%;
+    }
+    
+
 }
 
 @media only screen and (min-width: 768px){
