@@ -747,7 +747,8 @@ input[type=text1]{
         height: 50px;
     }
     .toggle{
-        display: none;
+        display: block;
+        padding: 10px;
     }
     .active{
         display:block;
@@ -829,6 +830,83 @@ input[type=text1]{
         margin-top: -30px;
         display:block;
     
+}
+    #mediaimage{
+    display: flex;
+    margin-top: 30px;
+    flex-direction: row;
+     flex-flow: wrap;
+    
+}
+#heading h2{
+   //margin: auto;
+    //margin-top: 10px;
+    width: 500px;
+    //justify-content: center;
+    margin-left: 400px;
+    display: flex;
+    flex-direction:row;
+    color: brown;
+    
+}
+
+#mimage img{
+    //margin: auto;
+    margin-top: 70px;
+    margin-left: -800px;
+}
+#paragraph{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+#paragraph1 h3{
+    flex-direction: column;
+    padding: 10px;
+    color: brown;
+   display: flex;
+}
+#paragraph1 p{
+   flex-direction: column;
+    text-align: justify;
+    width: 580px;
+    padding: 10px;
+    margin-top: -20px;
+   //display: flex;
+   //justify-content:space-between;
+   
+}
+
+#paragraph2 p{
+   flex-direction: column;
+    text-align: justify;
+    width: 580px;
+    padding: 10px;
+    margin-top:58px;
+    
+   // display: flex;
+   //justify-content: space-between;
+}
+
+#images{
+    flex-direction: row;
+    display: flex;
+    flex-flow: wrap;
+}
+
+#educationimage{
+    padding: 10px;
+    margin-bottom: 15px;
+    color: brown;
+    flex-direction: column;
+}
+#healthcareimage{
+    padding: 10px;
+    margin-bottom: 15px;
+    margin-left: 100px;
+    color: brown;
+    flex-direction: column;
 }
     
 }
