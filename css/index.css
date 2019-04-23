@@ -848,13 +848,15 @@ input[type=text1]{
     display: flex;
     flex-direction:row;
     color: brown;
-    
+    font-size: 26px;
 }
 
 #mimage img{
     //margin: auto;
     margin-top: 70px;
     margin-left: -800px;
+    width: 1000px;
+    height: 600px;
 }
 #paragraph{
     display: flex;
