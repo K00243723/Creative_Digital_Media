@@ -647,7 +647,7 @@ input[type=text1]{
     margin-top: 10px;
     margin-left: 0px;
     width:680px;
-    height: 450px;
+    height: 400px;
 }
 #paragraph{
     display: flex;
@@ -740,7 +740,8 @@ input[type=text1]{
         display: flex;
     }
     #header h1{
-        font-size: 46px
+        font-size: 46px;
+        height: 90px;
     }
     #header img{
         width: 55px;
@@ -901,12 +902,21 @@ input[type=text1]{
     color: brown;
     flex-direction: column;
 }
+    #educationimage img{
+        width: 580px;
+    }
+    
 #healthcareimage{
     padding: 10px;
     margin-bottom: 15px;
-    margin-left: 100px;
+    margin-left: 110px;
     color: brown;
     flex-direction: column;
+    margin-top: 28px;
 }
+    #healthcareimage img{
+        width: 580px;
+        
+    }
     
 }
