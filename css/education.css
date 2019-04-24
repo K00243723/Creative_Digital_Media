@@ -1,4 +1,345 @@
-#text1 ul{
-    list-style:decimal;
+#educaionimage {
+    display: flex;
     
+}
+#education h2{
+    color: brown;
+    width: 700px;
+   
+    margin-left: 400px;
+    display: flex;
+    flex-direction:row;
+    
+}
+#edimage img{
+    margin-top: 70px;
+    margin-left: -940px;
+    margin-bottom: 35px;
+}
+#text{
+    display: flex;
+    flex-direction: row;
+    
+}
+#text1{
+    text-align: justify;
+    padding: 10px;
+    flex-direction: column;
+}
+#text1 p{
+    margin-top: -10px;
+}
+#text1 h4{
+    color: brown;
+}
+#text2 {
+    padding: 10px;
+    text-align: justify;
+    margin-top: -40px;
+      flex-direction: column;
+}
+#text2 h4{
+    color: brown;
+}
+#text2 p{
+    margin-top: -15px;
+}
+#text2 h4{
+    color: brown;
+}
+#importants{
+    display: flex;
+    flex-direction: row;
+
+}
+#text3{
+    flex-direction: column;
+   padding: 10px;
+    width:600px;
+}
+#text3 ol li{
+    text-align: justify;
+}
+#text3 h3,h5{
+    color: brown;
+}
+#text4{
+    flex-direction: column;
+   padding: 10px;
+    width:600px;
+}
+@media only screen and  (min-width: 480px){
+    
+    #wrapper{
+    width:400px;
+    }
+    #educaionimage {
+    display: flex;
+    
+}
+#education h2{
+    color: brown;
+   width: 400px;
+   
+    margin-left:20px;
+    padding: 10px;
+    display: flex;
+    flex-direction:row;
+    
+}
+#edimage img{
+    margin-top: 100px;
+    margin-left: -440px;
+    //margin-bottom: 35px;
+    width:400px;
+    height: 220px;
+    
+}
+#text{
+    display: flex;
+    flex-direction: column;
+    
+}
+#text1{
+    text-align: justify;
+    padding: 10px;
+    
+}
+#text1 p{
+    margin-top: -10px;
+}
+#text1 h4{
+    color: brown;
+}
+    #text1 ol li{
+    text-align: justify;
+    margin-left: -30px;
+        margin-top: 5px;
+}
+#text2 {
+    padding: 10px;
+    text-align: justify;
+    margin-top: -40px;
+      
+}
+#text2 h4{
+    color: brown;
+}
+#text2 p{
+    margin-top: -15px;
+}
+#text2 h4{
+    color: brown;
+}
+#importants{
+    display: flex;
+    flex-direction: column;
+
+}
+#text3{
+    
+   margin-top: -30px;
+    width:380px;
+}
+#text3 ol li{
+    text-align: justify;
+    margin-left: -30px;
+    margin-top: 5px;
+}
+#text3 h3,h5{
+    color: brown;
+}
+#text4{
+    flex-direction: column;
+   padding: 10px;
+    width:380px;
+     margin-top: -40px;
+}
+    #text4 ol li{
+    text-align: justify;
+    margin-left: -30px;
+        margin-top: 5px;
+}
+}
+
+@media only screen and (min-width: 768px){
+        
+    #wrapper{
+    width:700px;
+  }
+        #educaionimage {
+    display: flex;
+    
+}
+#education h2{
+    color: brown;
+   width: 800px;
+   
+    margin-left:160px;
+    padding: 10px;
+    display: flex;
+    flex-direction:row;
+    
+}
+#edimage img{
+    margin-top: 70px;
+    margin-left: -970px;
+    //margin-bottom: 35px;
+    width:680px;
+    height: 260px;
+    
+}
+#text{
+    display: flex;
+    flex-direction: column;
+    
+}
+#text1{
+    text-align: justify;
+    padding: 10px;
+    
+}
+#text1 p{
+    margin-top: -10px;
+}
+#text1 h4{
+    color: brown;
+}
+    #text1 ol li{
+    text-align: justify;
+    margin-left: -30px;
+        margin-top: 5px;
+}
+#text2 {
+    padding: 10px;
+    text-align: justify;
+    margin-top: -40px;
+      
+}
+#text2 h4{
+    color: brown;
+}
+#text2 p{
+    margin-top: -15px;
+}
+#text2 h4{
+    color: brown;
+}
+#importants{
+    display: flex;
+    flex-direction: column;
+
+}
+#text3{
+    
+   margin-top: -30px;
+    width:650px;
+}
+#text3 ol li{
+    text-align: justify;
+    margin-left: 30px;
+    margin-top: 5px;
+}
+#text3 h3,h5{
+    color: brown;
+}
+#text4{
+    flex-direction: column;
+   padding: 10px;
+    width:650px;
+     margin-top: -40px;
+}
+    #text4 ol li{
+    text-align: justify;
+    margin-left: 30px;
+        margin-top: 5px;
+}
+}
+
+
+
+@media only screen and (min-width: 1250px){
+   
+    #wrapper {
+        width: 1200px;
+    }
+    #educaionimage {
+    display: flex;
+    
+}
+#education h2{
+    color: brown;
+    width: 700px;
+   
+    margin-left: 400px;
+    display: flex;
+    flex-direction:row;
+    
+}
+#edimage img{
+    margin-top: 70px;
+    margin-left: -1000px;
+    margin-bottom: 35px;
+    width: 1000px;
+    height: 400px;
+}
+#text{
+    display: flex;
+    flex-direction: row;
+    
+}
+#text1{
+    text-align: justify;
+    padding: 10px;
+    flex-direction: column;
+}
+#text1 p{
+    margin-top: -10px;
+}
+#text1 h4{
+    color: brown;
+}
+#text2 {
+    padding: 10px;
+    text-align: justify;
+    margin-top: -40px;
+      flex-direction: column;
+}
+#text2 h4{
+    color: brown;
+}
+#text2 p{
+    margin-top: -15px;
+}
+#text2 h4{
+    color: brown;
+}
+#importants{
+    display: flex;
+    flex-direction: row;
+
+}
+#text3{
+    flex-direction: column;
+   padding: 10px;
+    width:550px;
+}
+#text3 ol li{
+    text-align: justify;
+    margin-top: 10px;
+    margin-left: -20px;
+}
+#text3 h3,h5{
+    color: brown;
+}
+#text4{
+    flex-direction: column;
+   padding: 10px;
+    width:550px;
+}
+    #text4 ol li{
+    text-align: justify;
+    margin-top: 10px;
+        margin-left: -20px;
+}
 }
