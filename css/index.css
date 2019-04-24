@@ -263,6 +263,9 @@ footer {
     margin-left: 100px;
     color: brown;
 }
+#links{
+    margin-bottom: 30px;
+}
 @media only screen and  (min-width: 480px){
     
     #wrapper{
@@ -519,7 +522,10 @@ footer {
         width:100%;
     }
     
-
+#links{
+    margin-bottom: 30px;
+    padding: 10px;
+}
 }
 
 @media only screen and (min-width: 768px){
@@ -726,6 +732,10 @@ input[type=text1]{
     #socialmedia{
         width:100%;
     }
+    #links{
+    margin-bottom: 30px;
+        padding: 10px;
+}
 }
 
 
@@ -902,6 +912,7 @@ input[type=text1]{
     padding: 10px;
     margin-bottom: 15px;
     color: brown;
+    margin-left: 10px;
     flex-direction: column;
 }
     #educationimage img{
@@ -920,5 +931,8 @@ input[type=text1]{
         width: 580px;
         
     }
-    
+    #links{
+    margin-bottom: 30px;
+        padding: 10px;
+}
 }
